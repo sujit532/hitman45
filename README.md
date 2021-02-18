@@ -40,9 +40,12 @@ var mul=(a,b)=>{
 mul(2,3)
 6
 ### High order Functions (HOF)
+
 * A Function accepts another function as an argument.*
-arr.map((item,index)=>{
+* 
+```javascript
+    arr.map((item,index)=>{
         console.log(item+" is having index of :"+index)
-        })
+      })
 
 ```
